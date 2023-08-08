@@ -78,6 +78,11 @@ table {
   margin: 0px auto;
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 0px 16px;
+  }
+}
 .btn {
   display: inline-block;
   background-color: transparent;
@@ -182,6 +187,11 @@ table {
 .header .container {
   padding: 0px 51px;
 }
+@media (max-width: 600px) {
+  .header .container .container {
+    padding: 0px 16px;
+  }
+}
 .header .container .header-inner {
   display: flex;
   flex-wrap: wrap;
@@ -226,6 +236,7 @@ table {
     display: flex;
     min-width: 0px;
     flex-flow: row wrap;
+    white-space: wrap;
   }
 }
 @media (max-width: 510px) {
@@ -235,6 +246,15 @@ table {
 }
 .header .container .header-inner li {
   margin-right: 50px;
+}
+.header .container .header-inner li .header .container .header-inner li a {
+  font-family: GraphikLCG;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  white-space: nowrap;
 }
 @media (max-width: 650px) {
   .header .container .header-inner li {
@@ -246,7 +266,6 @@ table {
   .header .container .header-inner li {
     flex: 0 1 40px;
     margin-right: 10px;
-    min-width: 92px;
   }
 }
 .header .container .header-inner li:last-child {
@@ -259,11 +278,15 @@ table {
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;
-  min-width: 92px;
 }
 
 .hero {
   padding: 90px 0px 210px 0px;
+}
+@media (max-width: 600px) {
+  .hero .container {
+    padding: 0px 16px;
+  }
 }
 .hero .hero-inner {
   display: flex;
@@ -353,6 +376,11 @@ table {
 .companies {
   background-color: #FF9C7D;
 }
+@media (max-width: 600px) {
+  .companies .container .container {
+    padding: 0px 16px;
+  }
+}
 .companies .container .companies-inner {
   display: flex;
   flex-direction: column;
@@ -435,6 +463,11 @@ table {
 .projects {
   padding: 90px 0 150px 0;
 }
+@media (max-width: 600px) {
+  .projects .container .container {
+    padding: 0px 16px;
+  }
+}
 .projects .container .projects-inner {
   display: flex;
   flex-direction: column;
@@ -512,6 +545,11 @@ table {
 
 .localize {
   background-color: #FFF8E4;
+}
+@media (max-width: 600px) {
+  .localize .container .container {
+    padding: 0px 16px;
+  }
 }
 .localize .container .localize-inner {
   padding: 120px 0 93px 0;
@@ -597,6 +635,11 @@ table {
 .boost {
   background-color: #FFFFFF;
 }
+@media (max-width: 600px) {
+  .boost .container .container {
+    padding: 0px 16px;
+  }
+}
 .boost .container .boost-inner {
   padding: 154px 20px 180px 20px;
 }
@@ -670,6 +713,11 @@ table {
 .revolut {
   background-color: #C9E8F2;
 }
+@media (max-width: 600px) {
+  .revolut .container .container {
+    padding: 0px 16px;
+  }
+}
 .revolut .container .revolut-inner {
   display: flex;
   align-items: flex-start;
@@ -716,6 +764,11 @@ table {
 }
 .cake {
   background-color: #DABC98;
+}
+@media (max-width: 600px) {
+  .cake .container .container {
+    padding: 0px 16px;
+  }
 }
 .cake .container .cake-inner {
   display: flex;
@@ -786,6 +839,11 @@ table {
 .integra {
   background-color: #FFFFFF;
 }
+@media (max-width: 600px) {
+  .integra .container .container {
+    padding: 0px 16px;
+  }
+}
 .integra .container .integra-inner {
   display: flex;
   flex-direction: column;
@@ -850,6 +908,11 @@ table {
 .easy {
   background-color: #FF9C7D;
 }
+@media (max-width: 600px) {
+  .easy .container .container {
+    padding: 0px 16px;
+  }
+}
 .easy .container .easy-inner {
   display: flex;
   flex-direction: column;
@@ -898,6 +961,11 @@ table {
 
 .case {
   background-color: #eeeeee;
+}
+@media (max-width: 600px) {
+  .case .container .container {
+    padding: 0px 16px;
+  }
 }
 .case .container .case-inner {
   display: flex;
@@ -1002,6 +1070,11 @@ table {
 }
 .footer {
   background-color: #eeeeee;
+}
+@media (max-width: 600px) {
+  .footer .container .container {
+    padding: 0px 16px;
+  }
 }
 .footer .container .footer-inner {
   display: flex;

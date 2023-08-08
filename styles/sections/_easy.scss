@@ -1,6 +1,9 @@
 .easy {
   background-color: #FF9C7D;
   .container {
+    @media (max-width: 600px) {
+      .container {padding: 0px 16px;}  
+    }
     .easy-inner {
       display: flex;
       flex-direction: column;
