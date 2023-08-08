@@ -187,11 +187,6 @@ table {
 .header .container {
   padding: 0px 51px;
 }
-@media (max-width: 600px) {
-  .header .container .container {
-    padding: 0px 16px;
-  }
-}
 .header .container .header-inner {
   display: flex;
   flex-wrap: wrap;
@@ -279,6 +274,11 @@ table {
   text-decoration: none;
 }
 
+@media (max-width: 630px) {
+  .header .container {
+    padding: 0px 16px;
+  }
+}
 .hero {
   padding: 90px 0px 210px 0px;
 }
