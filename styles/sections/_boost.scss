@@ -1,6 +1,9 @@
 .boost {
   background-color: #FFFFFF;
   .container {
+    @media (max-width: 600px) {
+      .container {padding: 0px 16px;}  
+    }
     .boost-inner {
       padding: 154px 20px 180px 20px;
       .title {

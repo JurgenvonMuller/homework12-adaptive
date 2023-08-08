@@ -1,6 +1,9 @@
 .projects {
   padding: 90px 0 150px 0;
   .container {
+    @media (max-width: 600px) {
+      .container {padding: 0px 16px;}  
+    }
     .projects-inner {
       display: flex;
       flex-direction: column;

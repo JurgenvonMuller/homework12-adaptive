@@ -1,6 +1,9 @@
 .case {
   background-color: #eeeeee;
   .container {
+    @media (max-width: 600px) {
+      .container {padding: 0px 16px;}  
+    }
     .case-inner {
       display: flex;
       margin: 0 auto;
