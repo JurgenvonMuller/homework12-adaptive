@@ -45,6 +45,7 @@ border-bottom: 1px solid #ccc ;
           display: flex;
           min-width: 0px;
           flex-flow: row wrap;
+          white-space: wrap;
         }
       }
       @media (max-width: 510px) {
@@ -54,6 +55,15 @@ border-bottom: 1px solid #ccc ;
       }
       li {
         margin-right: 50px;
+        .header .container .header-inner li a {
+          font-family: GraphikLCG;
+          color: #000;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 20px;
+          text-decoration: none;
+          white-space: nowrap;
+        }
       }
         @media (max-width: 650px) {
           li { 

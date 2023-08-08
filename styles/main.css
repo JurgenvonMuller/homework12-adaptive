@@ -246,6 +246,7 @@ table {
   .header .container .header-inner li {
     flex: 0 1 40px;
     margin-right: 10px;
+    min-width: 92px;
   }
 }
 .header .container .header-inner li:last-child {
@@ -258,6 +259,7 @@ table {
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;
+  min-width: 92px;
 }
 
 .hero {
