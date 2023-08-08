@@ -48,7 +48,6 @@ border-bottom: 1px solid #ccc ;
           display: flex;
           min-width: 0px;
           flex-flow: row wrap;
-          white-space: wrap;
         }
       }
       @media (max-width: 510px) {
@@ -65,13 +64,14 @@ border-bottom: 1px solid #ccc ;
           font-weight: 400;
           line-height: 20px;
           text-decoration: none;
-          white-space: nowrap;
+          
         }
       }
         @media (max-width: 650px) {
           li { 
             flex: 0 1 40px;
             margin-right: 30px;
+            white-space: nowrap;
           }
       }
       @media (max-width: 480px) {
